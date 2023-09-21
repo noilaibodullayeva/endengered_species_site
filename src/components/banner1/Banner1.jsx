@@ -30,6 +30,7 @@ const styles = {
     bigBox: {
         backgroundImage: `url(${Img1})`,
         backgroundRepeat: "no-repeat",
+        backgroundAttachment: 'fixed',
         width: '100%',
         display: 'flex',
         flexDirection: 'column',

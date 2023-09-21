@@ -49,7 +49,7 @@ const styles = {
         alignItems: 'center',
         justifyContent: 'space-around',
         gap: {md: '20px', xs: '30px'},
-        m: {md: '40px 20px 30px 20px'}
+        m: {md: '60px 20px 30px 20px'}
     },
     boxes: {
         width: '200px',
