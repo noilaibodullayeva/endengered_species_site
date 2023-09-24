@@ -10,7 +10,6 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { ButtonGroup } from '@mui/material';
-import Img2 from '../../images/logo.png'
 
 
 const pages = ['Log In', 'Donate Now', 'Take Actions', 'Menu'];

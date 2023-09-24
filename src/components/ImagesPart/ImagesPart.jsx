@@ -44,7 +44,7 @@ function Imagespart() {
                 </Box>
                 <Box sx={styles.fourth}>
                     <Box sx={styles.fifth}>
-                        <Typography sx={{ fontSize: '40px', fontWeight: 600, ml: '30px', color: '#fff', mt: '40px' }}>
+                        <Typography sx={{ fontSize: '35px', fontWeight: 600, ml: '30px', color: '#fff', mt: '40px' }}>
                             HOW YOU <br /> CAN HELP
                         </Typography>
                         <Typography sx={styles.lorem2} width='400px' display='flex' flexDirection='row' justifyContent='space-around' mt='55px'>
@@ -150,7 +150,7 @@ const styles = {
         backgroundColor: '#F99725',
         width: '300px',
         height: '350px',
-        margin: { md: '46.6% 0 0 53.4%', xs: '26.9% 0 0 46.4%' }
+        margin: { md: '46.6% 0 0 53.4%', xs: '26.9% 0 0 43.5%' }
     },
     fourth: {
         display: 'flex',
@@ -158,9 +158,9 @@ const styles = {
         width: { md: '57%', xs: '100%' },
     },
     fifth: {
-        height: '300px',
+        height: {md: '300px', xs: '400px'},
         display: 'flex',
-        flexDirection: 'row',
+        flexDirection: {md: 'row', xs: 'column'},
         backgroundColor: '#F15729'
     },
     sixth: {
