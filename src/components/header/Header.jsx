@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import { ButtonGroup } from '@mui/material';
+import { ButtonGroup, CardMedia } from '@mui/material';
 
 
 const pages = ['Log In', 'Donate Now', 'Take Actions', 'Menu'];
@@ -29,16 +29,13 @@ function Header() {
         <AppBar position="sticky" sx={{ backgroundColor: '#fff', height: '70px' }}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters backgroundColor='#fff'>
-                    {/* <Container
-                    component='img'
-                    src={Img2}
-                    sx={{
-                        width:'70px',
-                         height:'56px',
-                          mt:'10%' 
-                    }}
-                    alt="logo"
-                    /> */}
+                    <Box
+                        component="img"
+                        height="58%"
+                        image="/src/images/logo.png"
+                        alt="logo"
+                    />
+
                     <Typography
                         variant="h6"
                         noWrap
